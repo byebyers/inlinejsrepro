@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "gatsby";
 
 // styles
 const pageStyles = {
@@ -145,6 +146,9 @@ const IndexPage = () => {
           😎
         </span>
       </p>
+      <Link to="/issue/">
+        Go to issue page
+      </Link>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
           <a
